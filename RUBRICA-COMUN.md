@@ -1,8 +1,11 @@
 # Rúbrica común de calidad de los hitos
 
-Los hitos son requisito de entrega y **no puntúan por separado**. El conjunto puede
-aportar hasta **+0,5** a la nota de teoría. Sólo se valora calidad después de comprobar
-que cada entrega está en plazo y se ejecuta.
+Los hitos **no puntúan por separado**. El **M2** y el **M3** dan **derecho a asiento** en su
+control —entrega en plazo *y* que el proyecto se ejecute sin errores—; el **M1 es una práctica
+de calentamiento y no condiciona el asiento**. El conjunto de los tres puede aportar hasta
+**+0,5** a la nota de teoría. Sólo se valora calidad después de
+comprobar que cada entrega está en plazo y se ejecuta; esa comprobación es la misma que
+concede el asiento y la hace `scripts/verificar-entregas.sh`.
 
 | Criterio | Evidencia |
 |---|---|

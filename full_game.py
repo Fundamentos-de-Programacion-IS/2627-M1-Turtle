@@ -52,6 +52,7 @@ def run_race(red, blue):
 
     # TODO 3: crea un bucle que mueva las dos tortugas en cada vuelta.
     # Cuando una alcance FINISH_X, devuelve "roja" o "azul".
+    # Si las dos alcanzan FINISH_X en la misma vuelta, devuelve "empate".
     raise NotImplementedError
 
 
@@ -59,7 +60,9 @@ def main():
     """Pone en marcha la carrera (código proporcionado)."""
     screen, red, blue = prepare_game()
     winner = run_race(red, blue)
-    if winner:
+    if winner == "empate":
+        screen.title("¡Empate! Las dos tortugas llegan a la vez")
+    elif winner:
         screen.title(f"¡Ha ganado la tortuga {winner}!")
     screen.mainloop()
 

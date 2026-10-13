@@ -7,21 +7,26 @@ Para no comenzar desde cero y poder familiarizarnos con el desarrollo de juegos 
 > **«Use this template» → Create a new repository** para crear el repositorio del grupo
 > (ya no se usa *fork*). Cuando lo tengáis resuelto, comprimid el proyecto en
 > `tortuga-<nombre del grupo>.zip` y subidlo al formulario de ev.us.es.
-> **Fecha límite: jueves 8 de octubre.** Basta con que lo suba una persona del grupo.
+> **Fecha límite: jueves 22 de octubre.** Basta con que lo suba una persona del grupo.
 
 ## Cómo se evalúa este hito
 
-Este hito **no puntúa por sí solo**. Forma parte de tu nota de teoría de dos maneras:
+Este hito **no puntúa por sí solo** y **no condiciona el asiento** en ningún control: es una
+**práctica de calentamiento** para coger soltura con el ritual de entrega antes de que importe.
 
-- **Requisito**: debe estar **entregado en plazo** y **ejecutarse sin errores**.
+- **Requisito de entrega**: en plazo y ejecutándose sin errores. Los que sí dan derecho a
+  asiento son el **M2** (Control 1) y el **M3** (Control 2).
 - **Bonus**: el conjunto de los tres hitos puede aportar hasta **+0,5** sobre la nota de
   teoría por calidad y extras, según la rúbrica común.
 
 La nota de teoría sale de los **dos controles individuales de laboratorio**
-(martes 17 nov y martes 15 dic), que se corrigen de forma **automática** y usan el mismo
-formato que el examen práctico de enero. Los controles se plantean **sobre el dominio de
-este hito**: cuanto mejor entiendas el código que has escrito aquí, menos te costará el
-control.
+(martes 17 nov y martes 15 dic), de 110 minutos cada uno y con el mismo formato que el
+examen práctico de enero. Los controles se plantean sobre el dominio de los hitos
+siguientes —**Arkanoid** (M2) en el Control 1 y **Memory** (M3) en el Control 2—, así que
+este hito es el momento de coger soltura con el ciclo de escribir, ejecutar y entregar.
+
+> **Lo que pone la nota son los controles.** Este hito no da nota ni asiento: es el ensayo con
+> el que descubres, sin coste, qué te falta para los que sí cuentan.
 
 > Trabajad el proyecto vosotros. Lo que no sepáis escribir sin ayuda no lo sabréis escribir
 > en el laboratorio, que es donde se pone la nota.
@@ -68,7 +73,7 @@ Logra que `full_game.py` cuente con todas las partes necesarias para ejecutar la
 ### Pasos recomendados
 1. **Revisa las constantes** y asigna una velocidad positiva a cada tortuga.
 2. **Completa el bucle de carrera**: mueve ambas tortugas y usa condicionales para
-   detectar cuál llega primero.
+   detectar cuál llega primero, o si llegan las dos a la vez (empate).
 3. **Prueba tus cambios** ejecutando `python full_game.py` después de cada TODO.
 4. **Experimenta con las velocidades** y predice quién ganará antes de ejecutar.
 
