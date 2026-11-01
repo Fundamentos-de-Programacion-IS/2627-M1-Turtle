@@ -20,7 +20,7 @@ Este hito **no puntúa por sí solo** y **no condiciona el asiento** en ningún 
   teoría por calidad y extras, según la rúbrica común.
 
 La nota de teoría sale de los **dos controles individuales de laboratorio**
-(martes 17 nov y martes 15 dic), de 110 minutos cada uno y con el mismo formato que el
+(martes 24 nov y martes 15 dic), de 110 minutos cada uno y con el mismo formato que el
 examen práctico de enero. Los controles se plantean sobre el dominio de los hitos
 siguientes —**Arkanoid** (M2) en el Control 1 y **Memory** (M3) en el Control 2—, así que
 este hito es el momento de coger soltura con el ciclo de escribir, ejecutar y entregar.
